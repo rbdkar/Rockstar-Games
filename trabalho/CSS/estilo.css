@@ -131,6 +131,10 @@ footer {
   color: white;
 }
 
+form p::first-letter {
+    font-size: 1em;
+}
+
 p::first-letter {
     font-size: 2em;
 }
