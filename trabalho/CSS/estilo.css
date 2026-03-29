@@ -131,6 +131,6 @@ footer {
   color: white;
 }
 
-fieldset {
-    border-color: black;
+p::first-letter {
+    font-size: 2em;
 }
