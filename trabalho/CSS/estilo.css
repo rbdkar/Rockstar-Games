@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     background-color: #000;
     color: white;
     text-align: center;
@@ -8,9 +7,8 @@ body {
 
 .logo {
     display: block;
-    margin: 20px auto;
+    margin: auto;
     width: 60%;
-    max-width: 500px;
 }
 
 h1 {
@@ -18,14 +16,9 @@ h1 {
     font-family: 'Anton', sans-serif;
 }
 
-h3 {
-    font-size: 14pt;
-    text-transform: uppercase;
-}
-
 p {
     font-size: 13pt;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 10px auto;
 }
 
@@ -46,7 +39,7 @@ img {
     border-top: 2px solid #f1c40f;
     border-bottom: 2px solid #f1c40f;
     box-shadow: 0 0 10px #f1c40f33;
-    padding: 8px 0;
+    padding: 12px;
 }
 
 .menu ul {
@@ -78,7 +71,7 @@ img {
     padding: 20px;
     border-radius: 12px;
     max-width: 410px;
-    margin: 20px auto;
+    margin: auto;
 }
 
 input[type="text"], select {
@@ -91,8 +84,7 @@ input[type="text"], select {
 }
 
 input:focus, select:focus {
-    border-color: #917400;
-    box-shadow: 0 0 10px #917400;
+    box-shadow: 0 0 10px #f7f200;
 }
 
 input[type="email"], select {
@@ -141,11 +133,13 @@ footer {
   font-size: 11px;
 }
 
-p::first-letter {
-    font-size: 2em;
-}
-
-form p::first-letter {
+footer p::first-letter{
     font-size: 1em;
 }
 
+p::first-letter {
+    font-size: 2em;
+}
+form p::first-letter {
+    font-size: 1em;
+}
