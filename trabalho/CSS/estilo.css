@@ -138,6 +138,7 @@ footer {
   padding: 20px;
   background-color: #111;
   color: white;
+  font-size: 11px;
 }
 
 p::first-letter {
